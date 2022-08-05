@@ -1,7 +1,7 @@
 # MEDICAL-APPOINTMENT-APPLICATION
 THIS A GUI TO TAKE AND MANAGE APPOINTMENTS 
 # INTRODUCTION
-There is majorly 2 parts 1st is the DATABASE-SERVER and the 2nd APPOINTMENT-CLIENT.The DATABASESERVER part is run by the organization to take appointment and the appointment client part is run by the clients who wants to register or take any appointment.Here I have use the UDP protocol(USER DATAGRAM PROTOCOL) which is faster than the TCP protocol.I have also implemented a check to track any data loss by using acknowledgement message.In the database side there is also a checking condition to stop any duplicate entry.
+There is majorly 2 parts 1st is the DATABASE-SERVER and the 2nd APPOINTMENT-CLIENT.The DATABASESERVER part is run by the organization to who track the appointment and the appointment client part is run by the clients who wants to register or take any appointment.Here I have use the UDP protocol(USER DATAGRAM PROTOCOL) which is faster than the TCP protocol.I have also implemented a check to track any data loss by using acknowledgement message.In the database side there is also a checking condition to stop any duplicate entry.
 # HOW TO USE SERVER
 At first the database file to store the appointment is created.Then DATABASESERVER.py file is to be executed which will track any incoming connection and the appointments.After executing the DATABASESERVER.py file they need to click the START button to start the server which will wait for incoming connection and show a pop up that successfully started the server.When the SHOW button is clicked it will show the list of appointment.Remember that efore executing the file the database file showed be created were the data will be stored.
 # APPOINTMENT CLIENT
